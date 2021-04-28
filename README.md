@@ -21,3 +21,5 @@ aws s3 cp janelia-cosem-publications/heinrich-2021a/ local/path --recursive
 ```
 aws s3 cp janelia-cosem-publications/heinrich-2021a/jrc_hela-2.n5 --recursive
 ```
+## Related repositories: 
+- [Training setups](https://github.com/janelia-cosem/training_setups) Scripts used for training ML networks on FIB-SEM data
