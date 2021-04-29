@@ -26,3 +26,4 @@ aws s3 cp janelia-cosem-publications/heinrich-2021a/jrc_hela-2.n5 --recursive
 - [Manual evaluation of networks](https://github.com/janelia-cosem/Fiji_COSEM_Predictions_Evaluation): Fiji plugin for manual evaluation of ML network predictions 
 - [Segmentation and analysis](https://github.com/janelia-cosem/cosem-segmentation-analysis): code and scripts used to segment predictions and analyze results; a list of all refinements used to get the final segmentations can be found [here](https://github.com/janelia-cosem/refinements)
 - [Watershed and agglomeration](https://github.com/janelia-cosem/organelle-watershed-agglomeration): scripts used to perform watershed segmentation and agglomeration on select organelles
+- [CLEM](https://github.com/janelia-cosem/cosem-lm-em-registration): scripts and tools used to co-register light and electron microscopic images.
