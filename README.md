@@ -23,6 +23,7 @@ aws s3 cp janelia-cosem-publications/heinrich-2021a/jrc_hela-2.n5 local/path/jrc
 ```
 ## Related repositories: 
 - [Training setups](https://github.com/janelia-cosem/training_setups): scripts used for training ML networks on FIB-SEM data
+- [Training, Inference and Evaluation](https://github.com/saalfeldlab/CNNectome/tree/v2.0): codebase for training, applying and evaluating ML networks
 - [Manual evaluation of networks](https://github.com/janelia-cosem/Fiji_COSEM_Predictions_Evaluation): Fiji plugin for manual evaluation of ML network predictions 
 - [Segmentation and analysis](https://github.com/janelia-cosem/cosem-segmentation-analysis): code and scripts used to segment predictions and analyze results; a list of all refinements used to get the final segmentations can be found [here](https://github.com/janelia-cosem/refinements)
 - [Watershed and agglomeration](https://github.com/janelia-cosem/organelle-watershed-agglomeration): scripts used to perform watershed segmentation and agglomeration on select organelles
