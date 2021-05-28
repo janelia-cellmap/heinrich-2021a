@@ -9,6 +9,7 @@ This directory contains array data stored hierarchically in the [`n5`](https://g
 
 - FIB-SEM data used for generating ground truth and predictions is stored as n5 datasets, and can be found at `{dataset_name}/{dataset_name}.n5/volumes/raw`
 - Human-generated annotations ("crops") are stored as a collection of n5 groups in `{dataset_name}/{dataset_name}.n5/volumes/labels/0003/{crop_name}`. The pixel data for the crop is stored at `{dataset_name}/{dataset_name}.n5/volumes/labels/0003/{crop_name}/labels/all`
+- Human-generated skeletons of microtubules used for validation of the microtubule refinements are available in [`nml`](https://docs.webknossos.org/reference/data_formats#nml) format in `{dataset_name}/skeletons/mt/block_{blockno}.nml`
 
 ## Data access
 Warning: Be advised that copying large amounts of imaging data from cloud storage may use a lot of local storage space and take a long time to complete!  
